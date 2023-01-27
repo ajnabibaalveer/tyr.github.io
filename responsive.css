@@ -1,0 +1,65 @@
+@media screen and (max-width:991px) {
+    #who-we-are p{
+        line-height: 1.1rem;
+        font-size: 0.89rem;
+        font-weight: 400;
+    }
+    #who-we-are h2{
+        font-size: 1.5rem;
+    }
+    #who-we-are .bg-image{
+        background-image: url("../images/who-we-are.png"),
+        url("../images/bg.png");
+        height:60vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        /* why-we-are-different */
+        #why-we-are-different{
+        height:100vh;
+        margin-top:0.78rem;
+        margin-bottom:0.78rem;
+        }
+        #why-we-are-different h2{
+            padding-top:60px;
+        }
+        #why-we-are-different .content-box{
+            padding-top:3rem;
+        }
+        #why-we-are-different h4{
+            font-size: 1.2rem;
+            font-weight: 600;
+            }
+            #why-we-are-different p{
+              font-size: 0.87rem;
+            }
+            /* pricing */
+            .pricing button{
+                padding:5px 5px;
+            }
+            .third-card{
+                background-color: red;
+                height:400px;
+                margin-top:-4.3rem;
+            }
+           
+          
+}
+@media screen and (max-width:776px) {
+   
+}
+@media screen and (max-width:576px) {
+    #why-we-are-different .col-sm-4{
+        text-align: center;
+    }
+    #pricing{
+        margin-top:35rem;
+        padding-bottom:3rem
+    }
+}
+@media screen and (max-width:330px) {
+    #who-we-are h2{
+        font-size: 1.2rem;
+    }
+}

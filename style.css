@@ -1,0 +1,101 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header
+{
+    height: 600px;
+    background-image: url("hero.png");
+    width: 100%;
+    
+}
+.navbar-nav .nav-item a
+{
+    color: #ffff;
+}
+#portal
+{
+    color: #000;
+}
+#textarea
+{
+    color: #fff;
+    margin-top: 100px;
+}
+#textarea h2{
+    font-size: 40px;
+    line-height: 50px
+}
+#textarea h2 span
+{
+    background-color: red;
+}
+aside h2{
+    color: gray;
+    font-weight: 700;
+}
+aside h2 span{
+    color: red;
+}
+aside p{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+}
+article h2{
+    color: gray;
+    font-weight: 700;
+}
+article h2 span
+{
+    color: red;
+}
+article p
+{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+section .bgset{
+    background-image: url('./image/who-we-are.png'),url(./image/bg.png);
+    background-position: center,bottom;
+    background-repeat: no-repeat;
+    background-size:500px 400px,cover;
+   height: 300px;
+   
+}
+
+
+
+.popular{
+    letter-spacing: 10px;
+}
+footer
+{
+    background-color:rgb(49, 37, 37);
+    width: 100%;
+}
+footer ul li{
+    list-style-type: none;
+    color: gray;
+    font-weight: 400;
+}
+.symbol{
+    font-size:medium;
+    font-weight: bold;
+}
+.btn{
+    border: 1px solid red !important;
+    width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav .nav-item a
+    {
+        color: red;
+  }}
